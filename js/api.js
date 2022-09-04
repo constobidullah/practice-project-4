@@ -101,7 +101,7 @@ const displayNews = (newses, name) => {
              <img class="rounded-circle me-4" src="${news.author.img}" alt="" width="30" height="30">
              <p class="card-text"><small class="text-muted">${news.author.name} </small></p>
              <p>Total Views : ${news.total_view}</P>
-             <button onclick="loadNewsDetails('${news._id}')" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Details</button>
+             <button onclick="loadNewsDetails('${news._id}')" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">Details</button>
            </div>
        </div>    
        `;
