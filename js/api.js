@@ -72,11 +72,11 @@ const displayNews = (newses, name) => {
    //   number of news
    if (newses.length === 0) {
        noNewsFound.innerHTML = `
-           <h3 class="text-warning fw-bold text-center">No news Found!! Please try a new One.</h3>
+           <h3 class="text-secondary fw-bold text-center">No news Found!! Please try a new One.</h3>
            `;
    } else {
        noNewsFound.innerHTML = `
-           <h3 class="text-success text-white mb-5 bg-info rounded p-2">${newses.length} items found for category</h3>
+           <h3 class="text-secondary text-secondary mb-5 bg-info rounded p-2">${newses.length} items found for category</h3>
            `;
    }
 
